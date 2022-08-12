@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="icon" href="./img/svg/favi-icone.svg" sizes="any" type="image/svg" />
+    <!-- Font Awesome Script -->
+    <!-- <script src="https://kit.fontawesome.com/7ae40850c4.js" crossorigin="anonymous"></script> -->
+    <!-- Font Awesome Css -->
+    <link rel="stylesheet" href="css/font-awesome/css/all.css" />
+    <!-- Bootstrap 4.6x CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- google-font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;600;700&family=Roboto&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="css/bootstrap-4.6x/bootstrap.min.css" /> -->
+    <!-- Bootstrap 5.0 beta 2 CSS -->
+    <link rel="stylesheet" href="css/bootstrap-5.0/bootstrap.min.css" />
+    <!-- Owl-carousel css-->
+    <link rel="stylesheet" href="./owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="./owl-carousel/owl.theme.default.min.css">
+    <!-- carts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <script type="application/javascript" src="./js/rpie.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <!-- Bootstrap 5.0 beta 2 RTL CSS -->
+    <!-- <link rel="stylesheet" href="css/bootstrap-5.0/bootstrap.rtl.min.css" /> -->
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/main.css" />
+    <title>CONCARD</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header class="main-header ps-fixed">
+        <div class="main-header__wrapper">
+            <div class="logo-and-search">
+                <figure class="main-header__logo">
+                    <img src="./img/sign-up/single-logo.png" class="img-fluid header-logo" alt="">
+                </figure>
+                <div class="main-header__search-box">
+                    <div class="d-flex align-items-center gap-3" style="border-radius: 3rem;">
+                        <img src="./img/sign-up/search-icon.png" class="img-fluid search-icon" alt="">
+                        <input type="search" class="form-control search-input" placeholder="Search concard" aria-label="Search concard">
+                    </div>
+                    <div class="dropdown-box">
+                        <input type="search" class="form-control search-input" placeholder="Search concard" aria-label="Search concard">
+                        <li class="p-2 d-flex justify-content-between">
+                            <span class="d-flex align-items-center gap-2  fw-bold"><img src="./img/svg/timer.svg" class="img-fluid" alt="">Recent Search</span>
+                            <a href="#" class="text-primary fw-bold">See all</a>
+                        </li>
+                        <li class="d-flex justify-content-between align-items-center p-2">
+                            <span class="">Company user 1</span>
+                            <img src="./img/svg/timer.svg" class="img-fluid" alt="">
+                        </li>
+                        <li class="d-flex justify-content-between align-items-center p-2">
+                            <span class="">Company user 1</span>
+                            <img src="./img/svg/timer.svg" class="img-fluid" alt="">
+                        </li>
+                        <li class="d-flex justify-content-between align-items-center p-2">
+                            <span class="">Company user 1</span>
+                            <img src="./img/svg/timer.svg" class="img-fluid" alt="">
+                        </li>
+                        <li class="d-flex justify-content-between align-items-center p-2">
+                            <span class="">Company user 1</span>
+                            <img src="./img/svg/timer.svg" class="img-fluid" alt="">
+                        </li>
+                    </div>
+                    <div class="searchbox-overlay"></div>
+                </div>
+            </div>
+            <div class="d-flex align-items-center gap-5">
+                <ul class="main-header__links only-link">
+                    <li class="main-header__link-items">
+                        <a href="home.html" class="link-wrapper">
+                            <img src="./img/svg/home.svg" class="img-fluid header-icon" alt="">
+                            <span class="icon-text">Home</span>
+                        </a>
+                    </li>
+                    <li class="main-header__link-items">
+                        <a href="explore.html" class="link-wrapper">
+                            <img src="./img/svg/alert.svg" class="img-fluid header-icon" alt="">
+                            <span class="icon-text">Expo</span>
+                        </a>
+                    </li>
+                    <li class="main-header__link-items">
+                        <a href="card-info.html" class="link-wrapper">
+                            <img src="./img/svg/file.svg" class="img-fluid header-icon" alt="">
+                            <span class="icon-text">File</span>
+                        </a>
+                    </li>
+                    <li class="main-header__link-items">
+                        <a href="#" class="link-wrapper">
+                            <img src="./img/svg/msg.svg" class="img-fluid header-icon" alt="">
+                            <span class="icon-text">Message</span>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="main-header__links">
+                    <li class="main-header__link-items">
+                        <a href="#" class="link-wrapper position-relative">
+                            <img src="./img/svg/notification.svg" class="img-fluid header-icon" alt="">
+                            <span class="bell-dot"></span>
+                        </a>
+                    </li>
+                    <li class="main-header__link-items">
+                        <a href="#" class="link-wrapper dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="./img/sign-up/profile.jpg" class="img-fluid profile-img" alt="">
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./analytics.html">Profile</a></li>
+                            <li>
+                                <a class="dropdown-item" href="./socail-link.html">Socail Link</a>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Logout</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- mobile header -->
+    <header class="main-header-mbl">
+        <ul class="main-header__links only-link">
+            <li class="main-header__link-items">
+                <a href="./home.html" class="link-wrapper">
+                    <img src="./img/svg/home.svg" class="img-fluid header-icon" alt="">
+                    <span class="icon-text">Home</span>
+                </a>
+            </li>
+            <li class="main-header__link-items">
+                <a href="./explore.html" class="link-wrapper">
+                    <img src="./img/svg/alert.svg" class="img-fluid header-icon" alt="">
+                    <span class="icon-text">Expo</span>
+                </a>
+            </li>
+            <li class="main-header__link-items">
+                <a href="./card-info.html" class="link-wrapper">
+                    <img src="./img/svg/file.svg" class="img-fluid header-icon" alt="">
+                    <span class="icon-text">File</span>
+                </a>
+            </li>
+            <li class="main-header__link-items">
+                <a href="#" class="link-wrapper">
+                    <img src="./img/svg/msg.svg" class="img-fluid header-icon" alt="">
+                    <span class="icon-text">Message</span>
+                </a>
+            </li>
+        </ul>
+    </header>
+    <!-- main content wrapper -->
+    <main class="main-content-wrapper">
+        <div class="container-fluid main-content-wrapper__container">
+            <div class="row main-content-wrapper__row m-top">
+                <div class="col-md-8 p-3 main-content-wrapper__left">
+                    <div class="row mx-0 px-0  align-items-center">
+                        <div class="col-md-5">
+                            <img src="./img/svg/arrow-bacl-2.svg" alt="">
+                        </div>
+                        <div class="col-md-7 top-bar">
+                            <div class="d-flex align-items-center gap-2 modifier-3">
+                                <img src="./img/svg/Icon ionic-md-stats.svg" class="img-fluid" alt="">
+                                <p class="mb-0 fs-3" style="font-weight: 500;">Analytics</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dashborad-blog py-3">
+                        <p class="fs-3" style="font-weight: 500;">Dashboard</p>
+                        <div class="dashborad-boxes p-4  bg--white">
+                            <div class="box box-1">
+                                <div class="d-flex justify-content-between align-items-center gap-3">
+                                    <p class="fw-bold text-white fs-2 mb-0">300</p>
+                                    <img src="./img/svg/reached-peoples.svg" class="img-fluid dashborad-icon" alt="">
+                                </div>
+                                <span class="box-title">Reached Concards</span>
+                            </div>
+                            <div class="box secondary-gradient flex-grow-1">
+                                <div class="d-flex justify-content-between align-items-center gap-3">
+                                    <p class="fw-bold text-white fs-2 mb-0">300</p>
+                                    <img src="./img/svg/saved.svg" class="img-fluid dashborad-icon" alt="">
+                                </div>
+                                <span class="box-title">Saved Concards
+                          </span>
+                            </div>
+                            <div class="box primary-gradient-2 flex-grow-1">
+                                <div class="d-flex justify-content-between align-items-center gap-3">
+                                    <p class="fw-bold text-white fs-2 mb-0">300</p>
+                                    <img src="./img/svg/fav.svg" class="img-fluid dashborad-icon" alt="">
+                                </div>
+                                <span class="box-title">Favorites Concard</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- month statics -->
+                    <p class="fs-3" style="font-weight: 500;">Connections / month</p>
+                    <!-- <div class="connections-months"> -->
+                    <div class="bg-white py-5" id="chartContainer4" style="height: 390px; width: 100%; margin-top:20px;"></div>
+                    <!-- </div> -->
+                    <!-- month statics -->
+                    <p class="fs-3" style="font-weight: 500;">Connections / month</p>
+                    <div class="connections-months">
+                        <canvas id="myChart" style="width:100%;"></canvas>
+                    </div>
+                </div>
+                <div class="col-md-4 main-content-wrapper__right">
+                    <div class="sticky-box">
+                        <p class="fs-4 fw-bold">Trending Expo cards</p>
+                        <div class="bg-white dashborad-blog-wraper px-3 pt-3 pb-2 mt-3">
+                            <div class="docunt-grahph border-bottom">
+                                <div class="mypiechart">
+                                    <canvas id="myCanvas" width="170" height="170"></canvas>
+                                </div>
+                                <div class="your-card-percentage">
+                                    <div class="d-flex align-items-center gap-3 mb-2">
+                                        <div class="p-circle p1">
+                                            23%
+                                        </div>
+                                        <p class="mb-0">Who's got your card</p>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-3 mb-2">
+                                        <div class="p-circle p2">
+                                            23%
+                                        </div>
+                                        <p class="mb-0">Connection</p>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-3 mb-2">
+                                        <div class="p-circle p3">
+                                            23%
+                                        </div>
+                                        <p class="mb-0">Connection</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="view-profile pt-1">
+                                <a href="#" class="light-blue d-block">View all</a>
+                            </div>
+                        </div>
+                        <p class="fs-4 fw-bold">Top Industries / Fields</p>
+                        <div class="bg-white dashborad-blog-wraper p-3">
+                            <div class="percentage-bar">
+                                <p class="percentage-bar__text mb-0">Oil & Gas</p>
+                                <div class="percentage-bar__wrapper">
+                                    <div class="bar b1">100%</div>
+                                </div>
+                            </div>
+                            <div class="percentage-bar">
+                                <p class="percentage-bar__text mb-0">Food & Beverages</p>
+                                <div class="percentage-bar__wrapper">
+                                    <div class="bar b2">80%</div>
+                                </div>
+                            </div>
+                            <div class="percentage-bar">
+                                <p class="percentage-bar__text mb-0">Education</p>
+                                <div class="percentage-bar__wrapper">
+                                    <div class="bar b3">70%</div>
+                                </div>
+                            </div>
+                            <div class="percentage-bar">
+                                <p class="percentage-bar__text mb-0">Technology</p>
+                                <div class="percentage-bar__wrapper">
+                                    <div class="bar b4">60%</div>
+                                </div>
+                            </div>
+                            <div class="percentage-bar">
+                                <p class="percentage-bar__text mb-0">Food & Beverages</p>
+                                <div class="percentage-bar__wrapper">
+                                    <div class="bar b5">40%</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-white dashborad-blog-wraper adds px-3 pt-3 pb-2 mt-3">
+                            <p class="display-1 m-auto text-center text-secondary fw-bolder">ADs</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="" style="height: 30rem;"></div>
+        </div>
+    </main>
+    <!-- Bootstrap 4.6x -->
+    <!-- jQuery and Bootstrap Bundle (includes Popper)  -->
+    <!-- <script src="js/jquery.js"></script>
+		<script src="js/bootstrap-4.6x/bootstrap.bundle.min.js"></script> -->
+
+    <!-- Bootstrap 5.0 beta 2 -->
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="js/bootstrap-5.0/bootstrap.bundle.min.js"></script>
+    <script src="./js/jquery.js"></script>
+    <script src="./owl-carousel/owl.carousel.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
+<script>
+    var xValues = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"];
+    var yValues = [13, 8, 12, 10, 6, 8, 11, 9, 7, 5, 8, 11];
+    var barColors = ["#9B5FEB", "#9B5FEB", "#9B5FEB", "#9B5FEB", "#9B5FEB", "#9B5FEB", "#9B5FEB", "#9B5FEB", "#9B5FEB", "#9B5FEB", "#9B5FEB", "#9B5FEB"];
+
+    new Chart("myChart", {
+        type: "bar",
+        data: {
+            labels: xValues,
+            datasets: [{
+                backgroundColor: barColors,
+                data: yValues
+            }]
+        },
+        options: {
+            legend: {
+                display: false
+            },
+            title: {
+                display: true,
+            }
+        }
+    });
+
+    var obj = {
+        values: [25, 20, 85],
+        colors: ['#9B5FEB', '#21CCC8', '#235697'],
+        animation: true,
+        animationSpeed: 50,
+        fillTextData: true,
+        fillTextColor: '#fff',
+        fillTextAlign: 1.30,
+        fillTextPosition: 'inner',
+        doughnutHoleSize: 50,
+        doughnutHoleColor: '#fff',
+        offset: 1,
+        pie: 'normal',
+        isStrokePie: {
+            stroke: 20,
+            overlayStroke: true,
+            overlayStrokeColor: '#eee',
+            strokeStartEndPoints: 'Yes',
+            strokeAnimation: true,
+            strokeAnimationSpeed: 40,
+            fontSize: '60px',
+            textAlignement: 'center',
+            fontFamily: 'Arial',
+            fontWeight: 'bold'
+        }
+    };
+    //Generate myCanvas		
+    generatePieGraph('myCanvas', obj);
+</script>
+<script>
+    var options = {
+        title: {
+            text: 'AD IMPRESSIONS',
+            align: 'center',
+            margin: 10,
+            offsetX: 0,
+            offsetY: 0,
+            floating: false,
+            style: {
+                fontSize: '22px',
+                fontWeight: 'bold',
+                fontFamily: undefined,
+                color: '#263238'
+            },
+        },
+        markers: {
+            size: 10,
+            colors: '#9B5FEB',
+        },
+        series: [{
+            name: "Ad Impression",
+            data: [
+                [1327359600000, 30],
+                [1327446000000, 31],
+                [1327532400000, 31],
+                [1327618800000, 31],
+                [1327878000000, 31],
+                [1327964400000, 30],
+                [1328050800000, 31],
+                [1328137200000, 31],
+                [1328223600000, 31],
+                [1328482800000, 31],
+                [1328569200000, 32],
+                [1328655600000, 32],
+                [1328742000000, 32],
+                [1328828400000, 32],
+                [1329087600000, 32],
+                [1329174000000, 32],
+                [1329260400000, 32],
+                [1329346800000, 32],
+                [1329433200000, 32],
+                [1329778800000, 32],
+                [1329865200000, 32],
+                [1329951600000, 32],
+                [1330038000000, 33],
+                [1330297200000, 33],
+                [1330383600000, 33],
+                [1330470000000, 32],
+                [1330556400000, 33],
+                [1330642800000, 33],
+                [1330902000000, 33],
+                [1330988400000, 31],
+                [1331074800000, 32],
+                [1331161200000, 33],
+                [1331247600000, 33],
+                [1331506800000, 33],
+                [1331593200000, 34],
+                [1331679600000, 33],
+                [1331766000000, 34],
+                [1331852400000, 33],
+            ]
+        }],
+        chart: {
+            id: 'area-datetime',
+            type: 'area',
+            height: 350,
+            zoom: {
+                autoScaleYaxis: true
+            }
+        },
+        annotations: {
+            yaxis: [{
+                y: 30,
+                borderColor: '#999',
+                label: {
+                    show: true,
+                    text: 'Support',
+                    style: {
+                        color: "#fff",
+                        background: '#00E396'
+                    }
+                }
+            }],
+            xaxis: [{
+                x: new Date('14 Nov 2012').getTime(),
+                borderColor: '#999',
+                yAxisIndex: 0,
+                label: {
+                    show: true,
+                    text: 'Rally',
+                    style: {
+                        color: "#fff",
+                        background: '#775DD0'
+                    }
+                }
+            }]
+        },
+        dataLabels: {
+            enabled: false
+        },
+        // markers: {
+        //     size: 0,
+        //     style: 'hollow',
+        // },
+        xaxis: {
+            type: 'datetime',
+            min: new Date('01 Mar 2012').getTime(),
+            tickAmount: 6,
+        },
+        tooltip: {
+            x: {
+                formatter: function(val) {
+                    return "Ad Impression"
+                }
+            }
+        },
+        fill: {
+            type: 'gradient',
+            gradient: {
+                shadeIntensity: 1,
+                opacityFrom: 0.7,
+                opacityTo: 0.9,
+                stops: [0, 100]
+            }
+        },
+    };
+
+    var chart = new ApexCharts(document.querySelector("#chartContainer4"), options);
+    chart.render();
+</script>

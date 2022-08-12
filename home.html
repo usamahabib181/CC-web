@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="icon" href="./img/svg/favi-icone.svg" sizes="any" type="image/svg" />
+    <!-- Font Awesome Script -->
+    <!-- <script src="https://kit.fontawesome.com/7ae40850c4.js" crossorigin="anonymous"></script> -->
+    <!-- Font Awesome Css -->
+    <link rel="stylesheet" href="css/font-awesome/css/all.css" />
+    <!-- Bootstrap 4.6x CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- google-font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;600;700&family=Roboto&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="css/bootstrap-4.6x/bootstrap.min.css" /> -->
+    <!-- Bootstrap 5.0 beta 2 CSS -->
+    <link rel="stylesheet" href="css/bootstrap-5.0/bootstrap.min.css" />
+    <!-- Owl-carousel css-->
+    <link rel="stylesheet" href="./owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="./owl-carousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/emojionearea/3.4.2/emojionearea.css" integrity="sha512-0Nyh7Nf4sn+T48aTb6VFkhJe0FzzcOlqqZMahy/rhZ8Ii5Q9ZXG/1CbunUuEbfgxqsQfWXjnErKZosDSHVKQhQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <!-- Bootstrap 5.0 beta 2 RTL CSS -->
+    <!-- <link rel="stylesheet" href="css/bootstrap-5.0/bootstrap.rtl.min.css" /> -->
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/main.css" />
+    <title>CONCARD</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header class="main-header ps-fixed">
+        <div class="main-header__wrapper">
+            <div class="logo-and-search">
+                <figure class="main-header__logo">
+                    <img src="./img/sign-up/single-logo.png" class="img-fluid header-logo" alt="">
+                </figure>
+                <div class="main-header__search-box">
+                    <div class="d-flex align-items-center gap-3" style="border-radius: 3rem;">
+                        <img src="./img/sign-up/search-icon.png" class="img-fluid search-icon" alt="">
+                        <input type="search" class="form-control search-input" placeholder="Search concard" aria-label="Search concard">
+                    </div>
+                    <div class="dropdown-box">
+                        <input type="search" class="form-control search-input" placeholder="Search concard" aria-label="Search concard">
+                        <li class="p-2 d-flex justify-content-between">
+                            <span class="d-flex align-items-center gap-2  fw-bold"><img src="./img/svg/timer.svg" class="img-fluid" alt="">Recent Search</span>
+                            <a href="#" class="text-primary fw-bold">See all</a>
+                        </li>
+                        <li class="d-flex justify-content-between align-items-center p-2">
+                            <span class="">Company user 1</span>
+                            <img src="./img/svg/timer.svg" class="img-fluid" alt="">
+                        </li>
+                        <li class="d-flex justify-content-between align-items-center p-2">
+                            <span class="">Company user 1</span>
+                            <img src="./img/svg/timer.svg" class="img-fluid" alt="">
+                        </li>
+                        <li class="d-flex justify-content-between align-items-center p-2">
+                            <span class="">Company user 1</span>
+                            <img src="./img/svg/timer.svg" class="img-fluid" alt="">
+                        </li>
+                        <li class="d-flex justify-content-between align-items-center p-2">
+                            <span class="">Company user 1</span>
+                            <img src="./img/svg/timer.svg" class="img-fluid" alt="">
+                        </li>
+                    </div>
+                    <div class="searchbox-overlay"></div>
+                </div>
+            </div>
+            <div class="d-flex align-items-center gap-5">
+                <ul class="main-header__links only-link">
+                    <li class="main-header__link-items">
+                        <a href="home.html" class="link-wrapper">
+                            <img src="./img/svg/home.svg" class="img-fluid header-icon" alt="">
+                            <span class="icon-text">Home</span>
+                        </a>
+                    </li>
+                    <li class="main-header__link-items">
+                        <a href="explore.html" class="link-wrapper">
+                            <img src="./img/svg/alert.svg" class="img-fluid header-icon" alt="">
+                            <span class="icon-text">Expo</span>
+                        </a>
+                    </li>
+                    <li class="main-header__link-items">
+                        <a href="card-info.html" class="link-wrapper">
+                            <img src="./img/svg/file.svg" class="img-fluid header-icon" alt="">
+                            <span class="icon-text">File</span>
+                        </a>
+                    </li>
+                    <li class="main-header__link-items">
+                        <a href="#" class="link-wrapper">
+                            <img src="./img/svg/msg.svg" class="img-fluid header-icon" alt="">
+                            <span class="icon-text">Message</span>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="main-header__links">
+                    <li class="main-header__link-items">
+                        <a href="#" class="link-wrapper position-relative">
+                            <img src="./img/svg/notification.svg" class="img-fluid header-icon" alt="">
+                            <span class="bell-dot"></span>
+                        </a>
+                    </li>
+                    <li class="main-header__link-items">
+                        <a href="#" class="link-wrapper dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="./img/sign-up/profile.jpg" class="img-fluid profile-img" alt="">
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./analytics.html">Profile</a></li>
+                            <li>
+                                <a class="dropdown-item" href="./socail-link.html">Socail Link</a>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Logout</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- mobile header -->
+    <header class="main-header-mbl">
+        <ul class="main-header__links only-link">
+            <li class="main-header__link-items">
+                <a href="./home.html" class="link-wrapper">
+                    <img src="./img/svg/home.svg" class="img-fluid header-icon" alt="">
+                    <span class="icon-text">Home</span>
+                </a>
+            </li>
+            <li class="main-header__link-items">
+                <a href="./explore.html" class="link-wrapper">
+                    <img src="./img/svg/alert.svg" class="img-fluid header-icon" alt="">
+                    <span class="icon-text">Expo</span>
+                </a>
+            </li>
+            <li class="main-header__link-items">
+                <a href="./card-info.html" class="link-wrapper">
+                    <img src="./img/svg/file.svg" class="img-fluid header-icon" alt="">
+                    <span class="icon-text">File</span>
+                </a>
+            </li>
+            <li class="main-header__link-items">
+                <a href="#" class="link-wrapper">
+                    <img src="./img/svg/msg.svg" class="img-fluid header-icon" alt="">
+                    <span class="icon-text">Message</span>
+                </a>
+            </li>
+        </ul>
+    </header>
+    <!-- main content wrapper -->
+    <main class="main-content-wrapper">
+        <div class="container-fluid main-content-wrapper__container">
+            <div class="row main-content-wrapper__row m-top ">
+                <div class="col-md-8 p-3 main-content-wrapper__left">
+                    <div class="peoples-in-contacts contacts-person owl-carousel owl-theme">
+                        <li class="contact-people-wrpper item">
+                            <img src="./img/sign-up/profile.jpg" class="img-fluid contact-people" alt="">
+                        </li>
+                        <li class="contact-people-wrpper item">
+                            <img src="./img/sign-up/profile.jpg" class="img-fluid contact-people" alt="">
+                        </li>
+                        <li class="contact-people-wrpper item">
+                            <img src="./img/sign-up/profile.jpg" class="img-fluid contact-people" alt="">
+                        </li>
+                        <li class="contact-people-wrpper item">
+                            <img src="./img/sign-up/profile.jpg" class="img-fluid contact-people" alt="">
+                        </li>
+                        <li class="contact-people-wrpper item">
+                            <img src="./img/sign-up/profile.jpg" class="img-fluid contact-people" alt="">
+                        </li>
+                        <li class="contact-people-wrpper item">
+                            <img src="./img/sign-up/profile.jpg" class="img-fluid contact-people" alt="">
+                        </li>
+                        <li class="contact-people-wrpper item">
+                            <img src="./img/sign-up/profile.jpg" class="img-fluid contact-people" alt="">
+                        </li>
+                        <li class="contact-people-wrpper item">
+                            <img src="./img/sign-up/profile.jpg" class="img-fluid contact-people" alt="">
+                        </li>
+                        <li class="contact-people-wrpper item">
+                            <img src="./img/sign-up/profile.jpg" class="img-fluid contact-people" alt="">
+                        </li>
+                        <li class="contact-people-wrpper item">
+                            <img src="./img/sign-up/profile.jpg" class="img-fluid contact-people" alt="">
+                        </li>
+                        <li class="contact-people-wrpper item">
+                            <img src="./img/sign-up/profile.jpg" class="img-fluid contact-people" alt="">
+                        </li>
+                        <li class="contact-people-wrpper item">
+                            <img src="./img/sign-up/profile.jpg" class="img-fluid contact-people" alt="">
+                        </li>
+                        <li class="contact-people-wrpper item">
+                            <img src="./img/sign-up/profile.jpg" class="img-fluid contact-people" alt="">
+                        </li>
+                        <li class="contact-people-wrpper item">
+                            <img src="./img/sign-up/profile.jpg" class="img-fluid contact-people" alt="">
+                        </li>
+                        <li class="contact-people-wrpper item">
+                            <img src="./img/sign-up/profile.jpg" class="img-fluid contact-people" alt="">
+                        </li>
+                        <li class="contact-people-wrpper item">
+                            <img src="./img/sign-up/profile.jpg" class="img-fluid contact-people" alt="">
+                        </li>
+                        <li class="contact-people-wrpper item">
+                            <img src="./img/sign-up/profile.jpg" class="img-fluid contact-people" alt="">
+                        </li>
+                        <li class="contact-people-wrpper item">
+                            <img src="./img/sign-up/profile.jpg" class="img-fluid contact-people" alt="">
+                        </li>
+                        <li class="contact-people-wrpper item">
+                            <img src="./img/sign-up/profile.jpg" class="img-fluid contact-people" alt="">
+                        </li>
+                        <li class="contact-people-wrpper item">
+                            <img src="./img/sign-up/profile.jpg" class="img-fluid contact-people" alt="">
+                        </li>
+                    </div>
+                    <div class="company-feed">
+                        <div class="company-profile">
+                            <div class="d-flex align-items-center gap-2">
+                                <figure class="company-profile-img">
+                                    <img src="./img/sign-up/profile.jpg" class="img-fluid company-img" alt="">
+                                </figure>
+                                <div class="company-name">
+                                    <p class="mb-0 fw-bold name">Company x</p>
+                                    <p class="mb-0 field">Field</p>
+                                </div>
+                            </div>
+                            <div class="post-time">
+                                <button class="follow-btn">Follow</button>
+                                <p class="ago mb-0">1h ago</p>
+                            </div>
+                        </div>
+                        <div class="company-post">
+                            <figure class="company-post-wrapper">
+                                <img src="./img/sign-up/photo1.png" class="img-fluid post-img" alt="">
+                            </figure>
+                            <!-- like comment counter -->
+                            <div class="like-comment">
+                                <div class="like-icon">
+                                    <i class="fa fa-heart heart" id="like"></i>
+                                    <span>10</span>
+                                </div>
+                                <div class="comment">
+                                    <a href="#"><span>2</span> Comment</a>
+                                </div>
+                            </div>
+                            <!-- like comment share btns -->
+                            <div class="like-comment-share">
+                                <div class="like-able l-icone like" id="l-1" onclick="liked(1)">
+                                    <i class="fa fa-thumbs-up"></i>
+                                    <span class="text">Like</span>
+                                </div>
+                                <div class="l-icone comment" onclick="showComment(1)">
+                                    <i class="fa fa-comments"></i>
+                                    <span>Comment</span>
+                                </div>
+                                <div class="l-icone share">
+                                    <i class="fa fa-share"></i>
+                                    <span>Share</span>
+                                </div>
+                            </div>
+                            <!-- post a commnt -->
+                            <div class="post-comment" id="p-1">
+                                <div class="single-comment">
+                                    <figure class="c-person">
+                                        <img src="./img/sign-up/profile.jpg" class="p-comment-img" alt="">
+                                    </figure>
+                                    <div class="c-person">
+                                        <b>Danish</b>
+                                        <p class="text-comment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, blanditiis! Lorem ipsum dolor sit amet consectetur adipisicing elit. In obcaecati esse adipisci laboriosam neque commodi, nihil fuga molestias ea
+                                            explicabo.
+                                        </p>
+                                        <!-- reply of comment -->
+                                        <div class="replay-wrapper">
+                                            <div class="c-like like-able">Like</div>
+                                            <div class="c-replay" onclick="showReplay(1)">Replay</div>
+                                            <div class="c-time">1h</div>
+                                        </div>
+                                        <div class="replay-comment" id="r-1">
+                                            <div class="single-comment">
+                                                <figure class="c-person">
+                                                    <img src="./img/sign-up/profile.jpg" class="p-comment-img" alt="">
+                                                </figure>
+                                                <div class="c-person">
+                                                    <b>Danish</b>
+                                                    <p class="text-comment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, blanditiis! Lorem ipsum dolor sit amet consectetur adipisicing elit. In obcaecati esse adipisci laboriosam neque commodi, nihil fuga
+                                                        molestias ea explicabo.
+                                                    </p>
+                                                    <div class="replay-wrapper">
+                                                        <div class="c-like like-able">Like</div>
+                                                        <div class="c-replay">Replay</div>
+                                                        <div class="c-time">1h</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex align-items-center gap-2 position-relative">
+                                                <img src="./img/sign-up/profile.jpg" class="comment-img" alt="">
+                                                <input type="text" class="form-control" id="commentText-2" placeholder="Write a Comment">
+                                            </div>
+                                            <div class="text-end mt-3">
+                                                <button class="btn btn-primary">Post</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center gap-2 position-relative">
+                                    <img src="./img/sign-up/profile.jpg" class="comment-img" alt="">
+                                    <input type="text" class="form-control" id="commentText-1" placeholder="Write a Comment">
+                                </div>
+                                <div class="text-end mt-3">
+                                    <button class="btn btn-primary">Post</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="company-feed">
+                        <div class="company-profile">
+                            <div class="d-flex align-items-center gap-2">
+                                <figure class="company-profile-img">
+                                    <img src="./img/sign-up/profile.jpg" class="img-fluid company-img" alt="">
+                                </figure>
+                                <div class="company-name">
+                                    <p class="mb-0 fw-bold name">Company x</p>
+                                    <p class="mb-0 field">Field</p>
+                                </div>
+                            </div>
+                            <div class="post-time">
+                                <button class="follow-btn">Follow</button>
+                                <p class="ago mb-0">1h ago</p>
+                            </div>
+                        </div>
+                        <div class="company-post">
+                            <figure class="company-post-wrapper">
+                                <img src="./img/sign-up/photo1.png" class="img-fluid post-img" alt="">
+                            </figure>
+                            <!-- like comment counter -->
+                            <div class="like-comment">
+                                <div class="like-icon">
+                                    <i class="fa fa-heart heart" id="like"></i>
+                                    <span>10</span>
+                                </div>
+                                <div class="comment">
+                                    <a href="#"><span>2</span> Comment</a>
+                                </div>
+                            </div>
+                            <!-- like comment share btns -->
+                            <div class="like-comment-share">
+                                <div class="like-able l-icone like" id="l-2" onclick="liked(2)">
+                                    <i class="fa fa-thumbs-up"></i>
+                                    <span class="text">Like</span>
+                                </div>
+                                <div class="l-icone comment" onclick="showComment(2)">
+                                    <i class="fa fa-comments"></i>
+                                    <span>Comment</span>
+                                </div>
+                                <div class="l-icone share">
+                                    <i class="fa fa-share"></i>
+                                    <span>Share</span>
+                                </div>
+                            </div>
+                            <!-- post a commnt -->
+                            <div class="post-comment" id="p-2">
+                                <div class="single-comment">
+                                    <figure class="c-person">
+                                        <img src="./img/sign-up/profile.jpg" class="p-comment-img" alt="">
+                                    </figure>
+                                    <div class="c-person">
+                                        <b>Danish</b>
+                                        <p class="text-comment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, blanditiis! Lorem ipsum dolor sit amet consectetur adipisicing elit. In obcaecati esse adipisci laboriosam neque commodi, nihil fuga molestias ea
+                                            explicabo.
+                                        </p>
+                                        <!-- reply of comment -->
+                                        <div class="replay-wrapper">
+                                            <div class="c-like like-able">Like</div>
+                                            <div class="c-replay" onclick="showReplay(2)">Replay</div>
+                                            <div class="c-time">1h</div>
+                                        </div>
+                                        <div class="replay-comment" id="r-2">
+                                            <div class="single-comment">
+                                                <figure class="c-person">
+                                                    <img src="./img/sign-up/profile.jpg" class="p-comment-img" alt="">
+                                                </figure>
+                                                <div class="c-person">
+                                                    <b>Danish</b>
+                                                    <p class="text-comment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, blanditiis! Lorem ipsum dolor sit amet consectetur adipisicing elit. In obcaecati esse adipisci laboriosam neque commodi, nihil fuga
+                                                        molestias ea explicabo.
+                                                    </p>
+                                                    <div class="replay-wrapper">
+                                                        <div class="c-like like-able">Like</div>
+                                                        <div class="c-replay">Replay</div>
+                                                        <div class="c-time">1h</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex align-items-center gap-2 position-relative">
+                                                <img src="./img/sign-up/profile.jpg" class="comment-img" alt="">
+                                                <input type="text" class="form-control" id="commentText" placeholder="Write a Comment">
+                                            </div>
+                                            <div class="text-end mt-3">
+                                                <button class="btn btn-primary">Post</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center gap-2 position-relative">
+                                    <img src="./img/sign-up/profile.jpg" class="comment-img" alt="">
+                                    <input type="text" class="form-control" id="commentText" placeholder="Write a Comment">
+                                </div>
+                                <div class="text-end mt-3">
+                                    <button class="btn btn-primary">Post</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="company-feed">
+                        <div class="company-profile">
+                            <div class="d-flex align-items-center gap-2">
+                                <figure class="company-profile-img">
+                                    <img src="./img/sign-up/profile.jpg" class="img-fluid company-img" alt="">
+                                </figure>
+                                <div class="company-name">
+                                    <p class="mb-0 fw-bold name">Company x</p>
+                                    <p class="mb-0 field">Field</p>
+                                </div>
+                            </div>
+                            <div class="post-time">
+                                <button class="follow-btn">Follow</button>
+                                <p class="ago mb-0">1h ago</p>
+                            </div>
+                        </div>
+                        <div class="company-post">
+                            <figure class="company-post-wrapper">
+                                <img src="./img/sign-up/photo1.png" class="img-fluid post-img" alt="">
+                            </figure>
+                            <!-- like comment counter -->
+                            <div class="like-comment">
+                                <div class="like-icon">
+                                    <i class="fa fa-heart heart" id="like"></i>
+                                    <span>10</span>
+                                </div>
+                                <div class="comment">
+                                    <a href="#"><span>2</span> Comment</a>
+                                </div>
+                            </div>
+                            <!-- like comment share btns -->
+                            <div class="like-comment-share">
+                                <div class="like-able l-icone like" id="l-2" onclick="liked(2)">
+                                    <i class="fa fa-thumbs-up"></i>
+                                    <span class="text">Like</span>
+                                </div>
+                                <div class="l-icone comment" onclick="showComment(2)">
+                                    <i class="fa fa-comments"></i>
+                                    <span>Comment</span>
+                                </div>
+                                <div class="l-icone share">
+                                    <i class="fa fa-share"></i>
+                                    <span>Share</span>
+                                </div>
+                            </div>
+                            <!-- post a commnt -->
+                            <div class="post-comment" id="p-2">
+                                <div class="single-comment">
+                                    <figure class="c-person">
+                                        <img src="./img/sign-up/profile.jpg" class="p-comment-img" alt="">
+                                    </figure>
+                                    <div class="c-person">
+                                        <b>Danish</b>
+                                        <p class="text-comment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, blanditiis! Lorem ipsum dolor sit amet consectetur adipisicing elit. In obcaecati esse adipisci laboriosam neque commodi, nihil fuga molestias ea
+                                            explicabo.
+                                        </p>
+                                        <!-- reply of comment -->
+                                        <div class="replay-wrapper">
+                                            <div class="c-like like-able">Like</div>
+                                            <div class="c-replay" onclick="showReplay(2)">Replay</div>
+                                            <div class="c-time">1h</div>
+                                        </div>
+                                        <div class="replay-comment" id="r-2">
+                                            <div class="single-comment">
+                                                <figure class="c-person">
+                                                    <img src="./img/sign-up/profile.jpg" class="p-comment-img" alt="">
+                                                </figure>
+                                                <div class="c-person">
+                                                    <b>Danish</b>
+                                                    <p class="text-comment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, blanditiis! Lorem ipsum dolor sit amet consectetur adipisicing elit. In obcaecati esse adipisci laboriosam neque commodi, nihil fuga
+                                                        molestias ea explicabo.
+                                                    </p>
+                                                    <div class="replay-wrapper">
+                                                        <div class="c-like like-able">Like</div>
+                                                        <div class="c-replay">Replay</div>
+                                                        <div class="c-time">1h</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex align-items-center gap-2 position-relative">
+                                                <img src="./img/sign-up/profile.jpg" class="comment-img" alt="">
+                                                <input type="text" class="form-control" id="commentText" placeholder="Write a Comment">
+                                            </div>
+                                            <div class="text-end mt-3">
+                                                <button class="btn btn-primary">Post</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center gap-2 position-relative">
+                                    <img src="./img/sign-up/profile.jpg" class="comment-img" alt="">
+                                    <input type="text" class="form-control" id="commentText" placeholder="Write a Comment">
+                                </div>
+                                <div class="text-end mt-3">
+                                    <button class="btn btn-primary">Post</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="company-feed">
+                        <div class="company-profile">
+                            <div class="d-flex align-items-center gap-2">
+                                <figure class="company-profile-img">
+                                    <img src="./img/sign-up/profile.jpg" class="img-fluid company-img" alt="">
+                                </figure>
+                                <div class="company-name">
+                                    <p class="mb-0 fw-bold name">Company x</p>
+                                    <p class="mb-0 field">Field</p>
+                                </div>
+                            </div>
+                            <div class="post-time">
+                                <button class="follow-btn">Follow</button>
+                                <p class="ago mb-0">1h ago</p>
+                            </div>
+                        </div>
+                        <div class="company-post">
+                            <figure class="company-post-wrapper">
+                                <img src="./img/sign-up/photo1.png" class="img-fluid post-img" alt="">
+                            </figure>
+                            <!-- like comment counter -->
+                            <div class="like-comment">
+                                <div class="like-icon">
+                                    <i class="fa fa-heart heart" id="like"></i>
+                                    <span>10</span>
+                                </div>
+                                <div class="comment">
+                                    <a href="#"><span>2</span> Comment</a>
+                                </div>
+                            </div>
+                            <!-- like comment share btns -->
+                            <div class="like-comment-share">
+                                <div class="like-able l-icone like" id="l-2" onclick="liked(2)">
+                                    <i class="fa fa-thumbs-up"></i>
+                                    <span class="text">Like</span>
+                                </div>
+                                <div class="l-icone comment" onclick="showComment(2)">
+                                    <i class="fa fa-comments"></i>
+                                    <span>Comment</span>
+                                </div>
+                                <div class="l-icone share">
+                                    <i class="fa fa-share"></i>
+                                    <span>Share</span>
+                                </div>
+                            </div>
+                            <!-- post a commnt -->
+                            <div class="post-comment" id="p-2">
+                                <div class="single-comment">
+                                    <figure class="c-person">
+                                        <img src="./img/sign-up/profile.jpg" class="p-comment-img" alt="">
+                                    </figure>
+                                    <div class="c-person">
+                                        <b>Danish</b>
+                                        <p class="text-comment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, blanditiis! Lorem ipsum dolor sit amet consectetur adipisicing elit. In obcaecati esse adipisci laboriosam neque commodi, nihil fuga molestias ea
+                                            explicabo.
+                                        </p>
+                                        <!-- reply of comment -->
+                                        <div class="replay-wrapper">
+                                            <div class="c-like like-able">Like</div>
+                                            <div class="c-replay" onclick="showReplay(2)">Replay</div>
+                                            <div class="c-time">1h</div>
+                                        </div>
+                                        <div class="replay-comment" id="r-2">
+                                            <div class="single-comment">
+                                                <figure class="c-person">
+                                                    <img src="./img/sign-up/profile.jpg" class="p-comment-img" alt="">
+                                                </figure>
+                                                <div class="c-person">
+                                                    <b>Danish</b>
+                                                    <p class="text-comment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, blanditiis! Lorem ipsum dolor sit amet consectetur adipisicing elit. In obcaecati esse adipisci laboriosam neque commodi, nihil fuga
+                                                        molestias ea explicabo.
+                                                    </p>
+                                                    <div class="replay-wrapper">
+                                                        <div class="c-like like-able">Like</div>
+                                                        <div class="c-replay">Replay</div>
+                                                        <div class="c-time">1h</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex align-items-center gap-2 position-relative">
+                                                <img src="./img/sign-up/profile.jpg" class="comment-img" alt="">
+                                                <input type="text" class="form-control" id="commentText" placeholder="Write a Comment">
+                                            </div>
+                                            <div class="text-end mt-3">
+                                                <button class="btn btn-primary">Post</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center gap-2 position-relative">
+                                    <img src="./img/sign-up/profile.jpg" class="comment-img" alt="">
+                                    <input type="text" class="form-control" id="commentText" placeholder="Write a Comment">
+                                </div>
+                                <div class="text-end mt-3">
+                                    <button class="btn btn-primary">Post</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 main-content-wrapper__right">
+                    <div class="sticky-box">
+                        <div class="bg-white dashborad-blog-wraper px-3 pt-3 pb-2">
+                            <div class="user-account border-bottom py-2">
+                                <div class="d-flex gap-3">
+                                    <figure class="user-account-img">
+                                        <img src="./img/sign-up/profile.jpg" class="img-fluid user-img" alt="">
+                                    </figure>
+                                    <div class="user-account-name">
+                                        <p class="mb-0 fw-bold name">John Smith</p>
+                                        <p class="mb-0 field">Lorem ipsum</p>
+                                    </div>
+                                </div>
+                                <div class="user-account-promote">
+                                    <a href="./primote.html" class="promote">Promot</a>
+                                </div>
+                            </div>
+                            <div class="dashborad-blog border-bottom py-3">
+                                <p class="fs-4">Dashboard</p>
+                                <div class="dashborad-boxes pb-2">
+                                    <div class="box box-1">
+                                        <div class="d-flex justify-content-between align-items-center gap-3">
+                                            <p class="fw-bold text-white fs-3 mb-0">300</p>
+                                            <img src="./img/svg/reached-peoples.svg" class="img-fluid dashborad-icon" alt="">
+                                        </div>
+                                        <span class="box-title">Reached Concards</span>
+                                    </div>
+                                    <div class="box secondary-gradient">
+                                        <div class="d-flex justify-content-between align-items-center gap-3">
+                                            <p class="fw-bold text-white fs-3 mb-0">300</p>
+                                            <img src="./img/svg/saved.svg" class="img-fluid dashborad-icon" alt="">
+                                        </div>
+                                        <span class="box-title">Saved Concards
+                                    </span>
+                                    </div>
+                                    <div class="box primary-gradient-2">
+                                        <div class="d-flex justify-content-between align-items-center gap-3">
+                                            <p class="fw-bold text-white fs-3 mb-0">300</p>
+                                            <img src="./img/svg/fav.svg" class="img-fluid dashborad-icon" alt="">
+                                        </div>
+                                        <span class="box-title">Favorites Concard</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="view-profile pt-1">
+                                <a href="#" class="light-blue d-block">View Profile</a>
+                            </div>
+                        </div>
+                        <div class="bg-white dashborad-blog-wraper px-3 pt-3 pb-2 mt-3">
+                            <p class="fs-4 fw-bold">Concard suggest</p>
+                            <div class="border-bottom">
+                                <div class="user-account py-2">
+                                    <div class="d-flex gap-3">
+                                        <figure class="user-account-img">
+                                            <img src="./img/sign-up/profile.jpg" class="img-fluid user-img" alt="">
+                                        </figure>
+                                        <div class="user-account-name">
+                                            <p class="mb-0 fw-bold name">John Smith</p>
+                                            <p class="mb-0 field">mutual connections in your contact</p>
+                                        </div>
+                                    </div>
+                                    <div class="user-account-promote">
+                                        <button type="button" class="promote text-white border-0 py-2 box secondary-gradient">Add +</button>
+                                    </div>
+                                </div>
+                                <div class="user-account py-2">
+                                    <div class="d-flex gap-3">
+                                        <figure class="user-account-img">
+                                            <img src="./img/sign-up/profile.jpg" class="img-fluid user-img" alt="">
+                                        </figure>
+                                        <div class="user-account-name">
+                                            <p class="mb-0 fw-bold name">John Smith</p>
+                                            <p class="mb-0 field">mutual connections in your contact</p>
+                                        </div>
+                                    </div>
+                                    <div class="user-account-promote">
+                                        <button type="button" class="promote text-white border-0 py-2 box secondary-gradient">Add +</button>
+                                    </div>
+                                </div>
+                                <div class="user-account py-2">
+                                    <div class="d-flex gap-3">
+                                        <figure class="user-account-img">
+                                            <img src="./img/sign-up/profile.jpg" class="img-fluid user-img" alt="">
+                                        </figure>
+                                        <div class="user-account-name">
+                                            <p class="mb-0 fw-bold name">John Smith</p>
+                                            <p class="mb-0 field">mutual connections in your contact</p>
+                                        </div>
+                                    </div>
+                                    <div class="user-account-promote">
+                                        <button type="button" class="promote text-white border-0 py-2 box secondary-gradient">Add +</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="view-profile pt-1">
+                                <a href="#" class="light-blue d-block">View Profile</a>
+                            </div>
+                        </div>
+                        <div class="bg-white dashborad-blog-wraper adds px-3 pt-3 pb-2 mt-3">
+                            <p class="display-1 m-auto text-center text-secondary fw-bolder">ADs</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="" style="height: 30rem;"></div>
+        </div>
+    </main>
+
+    <!-- Bootstrap 4.6x -->
+    <!-- jQuery and Bootstrap Bundle (includes Popper)  -->
+    <!-- <script src="js/jquery.js"></script>
+		<script src="js/bootstrap-4.6x/bootstrap.bundle.min.js"></script> -->
+
+    <!-- Bootstrap 5.0 beta 2 -->
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="./js/jquery.js"></script>
+    <script src="./js/bootstrap-5.0/bootstrap.bundle.min.js"></script>
+    <script src="./owl-carousel/owl.carousel.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/emojionearea/3.4.2/emojionearea.min.js" integrity="sha512-hkvXFLlESjeYENO4CNi69z3A1puvONQV5Uh+G4TUDayZxSLyic5Kba9hhuiNLbHqdnKNMk2PxXKm0v7KDnWkYA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Custom JS -->
+    <script src="./js/main.js"></script>
+</body>
+<script>
+    const cBtn = document.querySelector('.comment');
+    const lBtn = document.querySelector('.like-able');
+    const postComment = document.querySelector('.post-comment');
+    const replayComment = document.querySelector('.replay-comment');
+    console.log(postComment);
+
+    const ele = (id) => {
+        return document.getElementById(id);
+    }
+    const showComment = (id) => {
+        ele(`p-${id}`).classList.toggle('show-c-box')
+    }
+    const showReplay = (id) => {
+        ele(`r-${id}`).classList.toggle('show')
+    }
+
+    const liked = (id) => {
+        ele(`l-${id}`).classList.toggle('liked')
+    }
+    $('#commentText1').emojioneArea({
+        pickerPosition: 'right'
+    })
+    $('#commentText2').emojioneArea({
+        pickerPosition: 'right'
+    })
+</script>
+
+</html>
